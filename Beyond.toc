@@ -1,6 +1,8 @@
 ## Interface: 30300
 ## Title: Beyond Repair
 ## Description: Boxes of doomed information.
+## Version: 0.1
+## Author: NizonRox
 
 beyond_core.lua
 beyond_hunter.lua
