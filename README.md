@@ -11,7 +11,6 @@ https://github.com/godsflaw/btp
 * Get the core components working
 
 
-
 ### Change log
-1.0.1 - Change plans
-1.0.0 - Published Repo
+1.0.1 - Change plans<br />
+1.0.0 - Published Repo<br />
