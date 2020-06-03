@@ -1,12 +1,14 @@
 # Beyond Repair (E)
-TO be text here
+This addon is made as a framework for 'Manage' other characters.
 
-Ripped version of:
+
+Credit to:
 https://github.com/godsflaw/btp
 
 ### Todo's
+* Make addon work with 8.1.5
 * Clean up code
-* Get the meta part to work
+* Get the core components working
 
 
 
