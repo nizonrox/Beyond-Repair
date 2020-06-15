@@ -9,6 +9,7 @@ https://github.com/godsflaw/btp
 * Make addon work with 8.1.5
 * Clean up code
 * Get the core components working
+* Make a road map for this project
 
 
 ### Change log
