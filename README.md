@@ -1,4 +1,4 @@
-# Beyond Repair 0.2 (Alpha) (Dev)
+# Beyond Repair 0.1 ->> 0.2 (Alpha) (Dev)
 This addon will translate information from the game into "color boxes" aka Boxes of doom.
 We can use these boxes to use a 3rd party program to control a character in real time.
 
