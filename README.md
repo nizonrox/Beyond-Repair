@@ -9,7 +9,7 @@ Credit to:
 https://github.com/godsflaw/btp
 
 ### Todo's
-* Update from 3.3.5a to 8.1.5
+* Update from 3.3.5a to 8.X.X
 * Clean up code
 * Get the core components working
 * Make a road map for this project
