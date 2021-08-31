@@ -1,4 +1,4 @@
-# Beyond Repair (E)
+# Beyond Repair (MasterDev)
 This addon will be coded to execute a "plan" on a character, as a standalone addon it will provide functions for automation.
 
 
