@@ -5,4 +5,3 @@
 ## Author: NizonRox
 
 beyond_core.lua
-beyond_hunter.lua
