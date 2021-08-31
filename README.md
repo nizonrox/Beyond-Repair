@@ -1,17 +1,18 @@
 # Beyond Repair (E)
-This addon is made as a framework for 'Manage' other characters.
+This addon will be coded to execute a "plan" on a character, as a standalone addon it will provide functions for automation.
 
 
 Credit to:
 https://github.com/godsflaw/btp
 
 ### Todo's
-* Make addon work with 8.1.5
-* Clean up code
-* Get the core components working
-* Make a road map for this project
+* Make addon work with 3.3.5
+* Make small functions that involve automation
+* Make it possible to make your own "plan"
+* Diffrent modes (Follower/Solo/Party mode)
+* Bypass blocked lua functions
 
 
 ### Change log
-1.0.1 - Change plans<br />
+1.0.1 - Readme.md Update<br />
 1.0.0 - Published Repo<br />
