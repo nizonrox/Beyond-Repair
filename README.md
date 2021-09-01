@@ -7,6 +7,7 @@ https://github.com/godsflaw/btp
 ### Wokring
 * XML frame file
 * Slash commands
+* Communication boxes
 
 ### Todo's
 * Make addon work with 3.3.5
@@ -14,6 +15,7 @@ https://github.com/godsflaw/btp
 * Make it possible to make your own "plan"
 * Diffrent modes (Follower/Solo/Party mode)
 * Bypass blocked lua functions
+* Autoit/AHK script to use communicaiton boxes
 
 
 ### Change log
