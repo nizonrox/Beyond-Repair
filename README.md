@@ -14,5 +14,6 @@ https://github.com/godsflaw/btp
 
 
 ### Change log
+1.0.2 - Fixed Lua errors, addons actually loads<br />
 1.0.1 - Readme.md Update<br />
 1.0.0 - Published Repo<br />
