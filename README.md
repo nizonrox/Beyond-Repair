@@ -20,3 +20,9 @@ https://github.com/godsflaw/btp
 1.0.2 - General clean up of code<br />
 1.0.1 - Readme.md Update<br />
 1.0.0 - Published Repo<br />
+
+
+
+### Useful info
+* https://media.defcon.org/DEF%20CON%2017/DEF%20CON%2017%20presentations/DEF%20CON%2017%20-%20mooney-luedke-subverting_wow_api.pdf
+* https://launchpad.net/btp
