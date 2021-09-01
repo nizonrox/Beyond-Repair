@@ -3,6 +3,7 @@ cur_xpos_g = 0
 cur_ypos_g = 0
 fr_width_g = 75
 fr_height_g = 20
+b_frame_array = { "IT", "IA", "IPT", "CT", "CA", "CPT", "AT", "AA", "APT", "PT", "MA", "PA", "MP", "PPT" }
 
 function btp_frame_debug(msg)
     DEFAULT_CHAT_FRAME:AddMessage(msg)
@@ -47,7 +48,7 @@ function btp_frame_onload(self)
 
     -- btp_frame_debug("btp_frame: OnLoad");
     SLASH_BTP_FRAME1 = "/btp_frame"
-    SLASH_BTP_FINIT1 = "/btp_finit"
+    SLASH_BTP_INIT1 = "/btp_finit"
     SLASH_BTP_DBG1 = "/btp_dbg"
 
     SlashCmdList["BTP_FRAME"] = function(cmdstr)
@@ -55,58 +56,16 @@ function btp_frame_onload(self)
         btp_frame_runcmd(cmdstr)
     end
 
-    SlashCmdList["BTP_FINIT"] = btp_frame_init
+    SlashCmdList["BTP_INIT"] = btp_frame_init
 
     SlashCmdList["BTP_DBG"] = function(cmdstr)
         -- btp_frame_debug(cmdstr);
     end
 
+    for i, v in pairs(b_frame_array) do
     curx, cury = btp_next_cord()
-    btp_frame_create("IT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("IA", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("IPT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("CT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("CA", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("CPT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("AT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("AA", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("APT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("PT", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("MA", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("PA", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("MP", curx, cury, curw, curh)
-
-    curx, cury = btp_next_cord()
-    btp_frame_create("PPT", curx, cury, curw, curh)
-end
-
-function footothebar()
-    local curx
-    local cury
+    btp_frame_create(v[i], curx, cury, curw, curh)
+    end
 end
 
 function btp_frame_print_usage(cmdstr)
