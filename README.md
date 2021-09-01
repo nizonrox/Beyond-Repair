@@ -1,9 +1,12 @@
 # Beyond Repair (MasterDEV)
 This addon will be coded to execute a "plan" on a character, as a standalone addon it will provide functions for automation.
 
-
-Credit to:
+Credit to BTP/Godsflaw for inspiration:
 https://github.com/godsflaw/btp
+
+### Wokring
+* XML frame file
+* Slash commands
 
 ### Todo's
 * Make addon work with 3.3.5
