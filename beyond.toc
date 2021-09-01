@@ -3,5 +3,6 @@
 ## Description: Useless addon, for now.
 ## Version: 1.0.1
 ## Author: NizonRox
+## Notes: Useless addon, for now.
 
-beyond_core.lua
+beyond_frame.xml
