@@ -14,7 +14,7 @@ This addons key focus is to have many "functions/scripts" for semi/full automati
 1.0.**0** - Published Repo<br/>
 
 ## ⭐️ Useful info
-* [Slideshow PDF](./defconslideshow.pdf)<br/>
+* [Slideshow PDF](./Misc/defconslideshow.pdf)<br/>
 * [BTP Github](https://github.com/godsflaw/btp)<br/>
 * [BTP Launchpad](https://launchpad.net/btp)<br/>
 
