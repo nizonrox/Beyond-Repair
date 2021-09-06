@@ -15,15 +15,29 @@ To run the project you need to use version of 3.3.5A (WOW)
 
     ```sh
     # Clone your fork
-    git clone https://github.com/<your-username>/Beyond-Repair.git
+    git clone https://github.com/nizonrox/Beyond-Repair.git
 
     # Navigate to the newly cloned directory
     cd Beyond-Repair
     ```
-2. Edit the code locally, add comments.
-3. Don't submit a pull request to the master branch.
-4. Do submit a pull request to MasterDev
+2. Locate your interface folder:
 
+    ```sh
+    # Retail
+    C:\World of Warcraft\_retail_\Interface\AddOns
+    # Classic
+    C:\World of Warcraft\_classic_\Interface\AddOns
+    # Private Servers
+    \Interface\AddOns
+    ```
+3. Make a new folder here and call it "Beyond" & Move atleast the required files to run:
+    ```sh
+    # Files required:
+    white16x16.tga
+    beyond.toc
+    beyond_frame.xml
+    beyond_frame.lua
+    ```
 
 ## Submitting a Pull Request
 Be sure to use a formatter for what file types you are creating/editing.<br/>
