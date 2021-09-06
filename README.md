@@ -1,30 +1,27 @@
-# Beyond Repair (MasterDEV)
-This addon will be coded to execute a "plan" on a character, as a standalone addon it will provide functions for automation.
+# 🛠️ Beyond Repair (MasterDEV)
+This addons key focus is to have many "functions/scripts" for semi/full automative tasks; The addon can both be used as standalone or while playing to enhance gameplay!
 
-Credit to BTP/Godsflaw for inspiration:
-https://github.com/godsflaw/btp
-
-### Wokring
-* XML frame file
-* Slash commands
-* Communication boxes
-
-### Todo's
-* Make addon work with 3.3.5
-* Make small functions that involve automation
-* Make it possible to make your own "plan"
+## 🚀 Future features
+* Make addon work with 3.3.5/Retail
 * Diffrent modes (Follower/Solo/Party mode)
-* Bypass blocked lua functions
-* Autoit/AHK script to use communicaiton boxes
+* Bypass blocked lua
+* Autoit/AHK script
 
+## ✨ Change log
+1.0.**4** - Clean up; Comment code; Style repo<br/>
+1.0.**2** - Formatting; Clean up<br/>
+1.0.**1** - Readme.md Update<br/>
+1.0.**0** - Published Repo<br/>
 
-### Change log
-1.0.2 - General clean up of code<br />
-1.0.1 - Readme.md Update<br />
-1.0.0 - Published Repo<br />
+## ⭐️ Useful info
+* [Slideshow PDF](./defconslideshow.pdf)<br/>
+* [BTP Github](https://github.com/godsflaw/btp)<br/>
+* [BTP Launchpad](https://launchpad.net/btp)<br/>
 
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome.<br />
+Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issues) if you want to contribute.<br />
+[Check the contributing guide](./CONTRIBUTING.md).<br />
 
-
-### Useful info
-* https://media.defcon.org/DEF%20CON%2017/DEF%20CON%2017%20presentations/DEF%20CON%2017%20-%20mooney-luedke-subverting_wow_api.pdf
-* https://launchpad.net/btp
+## 📝 License
+[Good Luck With That](./LICENSE)
