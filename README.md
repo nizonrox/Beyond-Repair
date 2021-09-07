@@ -6,17 +6,15 @@ This addons key focus is to have many "functions/scripts" for semi/full automati
 * Diffrent modes (Follower/Solo/Party mode)
 * Bypass blocked lua
 * Autoit/AHK script
+* Use WowArc liberary
 
 ## ✨ Change log
-1.0.**4** - Clean up; Comment code; Style repo<br/>
-1.0.**2** - Formatting; Clean up<br/>
-1.0.**1** - Readme.md Update<br/>
-1.0.**0** - Published Repo<br/>
+0.0.**1** - Updated repo<br/>
 
 ## ⭐️ Useful info
-* [Slideshow PDF](./Misc/defconslideshow.pdf)<br/>
-* [BTP Github](https://github.com/godsflaw/btp)<br/>
-* [BTP Launchpad](https://launchpad.net/btp)<br/>
+* BTP [Github](https://github.com/godsflaw/btp)/[Launchpad](https://launchpad.net/btp)/[Slideshow](./Misc/defconslideshow.pdf)<br/>
+* [WowArc Lib](https://www.wowace.com/projects/ace3)<br/>
+* [Lua Doc](https://www.lua.org/pil/contents.html)<br/>
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome.<br />
