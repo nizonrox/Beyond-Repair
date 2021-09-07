@@ -5,4 +5,4 @@
 ## Author: NizonRox
 ## Notes: Useless addon, for now.
 
-beyond_frame.xml
+beyond_lib.xml
