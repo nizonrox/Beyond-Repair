@@ -46,8 +46,16 @@ To run the project you need to use version of 3.3.5A (WOW)
     ```
 4. Run World of Warcraft
     After you have logged in be sure to enable the addon via the menu bottom left.
-
+    
     <img src="https://www.almarsguides.com/Almar's%20Stuff/WoW/Addons/HowTo/Addons%20Button.jpg" alt="Addon button">
+
+5. Recommended IDE/Documents
+
+* [Official Lua Documentation](https://www.lua.org/pil/contents.html) // Lua is the base UI/Addon language.
+* [Notepad++](https://notepad-plus-plus.org/downloads/) // Free editor /w Markdown
+* [WowAce3 Lib](https://www.wowace.com/projects/ace3) // Addon lib made to make stuff easier.
+* [BugGrabber](https://www.wowace.com/projects/bug-grabber) // For troubleshooting.
+* [WoWLua](https://www.curseforge.com/wow/addons/wowlua) // In-game editor /w Markdown
 
 ## Submitting a Pull Request
 Be sure to use a formatter for what file types you are creating/editing.<br/>
