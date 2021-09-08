@@ -1,4 +1,9 @@
 # 🛠️ Beyond Repair (MasterDEV)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+![Lua][lua-shield]<br/>
 This addons key focus is to have many "functions/scripts" for semi/full automative tasks; The addon can both be used as standalone or while playing to enhance gameplay!
 
 ## 🚀 Future features
@@ -23,3 +28,13 @@ Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issue
 
 ## 📝 License
 [Good Luck With That](./LICENSE)
+
+[contributors-shield]: https://img.shields.io/github/contributors/nizonrox/Beyond-Repair.svg?style=for-the-badge
+[contributors-url]: https://github.com/nizonrox/Beyond-Repair/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nizonrox/Beyond-Repair.svg?style=for-the-badge
+[forks-url]: https://github.com/nizonrox/Beyond-Repair/network/members
+[stars-shield]: https://img.shields.io/github/stars/nizonrox/Beyond-Repair.svg?style=for-the-badge
+[stars-url]: https://github.com/nizonrox/Beyond-Repair/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nizonrox/Beyond-Repair.svg?style=for-the-badge
+[issues-url]: https://github.com/nizonrox/Beyond-Repair/issues
+[lua-shield]: https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white
