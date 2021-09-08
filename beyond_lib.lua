@@ -31,10 +31,10 @@ end
 
 -- Loops over each frame and initializes them by changing their hex
 function beyond_lib_init()
-    for i, v in pairs(beyond_f_array) do
+    for i,v in pairs(beyond_f_array) do
         curx, cury = btp_next_cord()
-        beyond_lib_debug("Change: " .. beyond_f_array[v] .. " Hex: " .. beyond_c_array[v])
-        btp_frame_set_color_hex(beyond_f_array[v], beyond_c_array[v])
+        beyond_lib_debug("Change: " .. beyond_f_array[i] .. " Hex: " .. beyond_c_array[i])
+        btp_frame_set_color_hex(beyond_f_array[i], beyond_c_array[i])
     end
 end
 
@@ -62,10 +62,11 @@ function btp_frame_onload(self)
     SlashCmdList["BTP_DBG"] = function(cmdstr)
         -- btp_frame_debug(cmdstr);
     end
+    
     --Loop creation of bars
-    for i, v in pairs(beyond_f_array) do
-    curx, cury = btp_next_cord()
-    btp_frame_create(v[i], curx, cury, curw, curh)
+    for i,v in pairs(beyond_f_array) do
+        curx, cury = btp_next_cord()
+        btp_frame_create(beyond_f_array[i], curx, cury, curw, curh)
     end
 end
 
