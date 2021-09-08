@@ -70,7 +70,8 @@ IDE/Editing program:
 
 WoW Addon Liberary/Tools
 * [WowAce3 Lib](https://www.wowace.com/projects/ace3) // Addon lib made to make stuff easier.
-* [BugGrabber](https://www.wowace.com/projects/bug-grabber) // For troubleshooting.
+* [BugGrabber](https://www.wowace.com/projects/bug-grabber)/[BugSack](https://www.curseforge.com/wow/addons/bugsack) // For troubleshooting.
+* [WoWUnit](https://www.curseforge.com/wow/addons/wow-unit) // For testing UI based stuff
 * [WoWLua](https://www.curseforge.com/wow/addons/wowlua) // In-game editor
 
 ```sh
