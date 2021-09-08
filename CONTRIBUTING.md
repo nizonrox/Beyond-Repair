@@ -66,6 +66,7 @@ Code documentation:
 
 IDE/Editing program:
 * [Notepad++](https://notepad-plus-plus.org/downloads/) // Free editor
+* [Lua Demo](https://www.lua.org/cgi-bin/demo) // Lua demo environment for testing
 
 
 WoW Addon Liberary/Tools
