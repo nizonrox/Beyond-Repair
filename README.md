@@ -22,9 +22,9 @@ This addons key focus is to have many "functions/scripts" for semi/full automati
 * [Lua Doc](https://www.lua.org/pil/contents.html)<br/>
 
 ## 🤝 Contributing
-Contributions, issues and feature requests are welcome.<br />
-Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issues) if you want to contribute.<br />
-[Check the contributing guide](./CONTRIBUTING.md).<br />
+Contributions, issues and feature requests are welcome.<br/>
+Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issues) if you want to contribute.<br/>
+[Check the contributing guide](./CONTRIBUTING.md).<br/>
 
 ## 📝 License
 [Good Luck With That](./LICENSE)
