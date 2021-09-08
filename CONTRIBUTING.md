@@ -59,15 +59,15 @@ The repo only has one branch for development and that is MasterDev.
 Here are some tools that are recommended for troubleshooting/editing wow addons
 
 Code documentation:
-* [Official Lua Documentation](https://www.lua.org/pil/contents.html) // Lua is the base UI/Addon language.
-* [WoW Lua API Documentation](https://wowwiki-archive.fandom.com/wiki/World_of_Warcraft_API)
-* [WoW FrameXML Townlong](https://www.townlong-yak.com/framexml/builds)
-* [WoW API Townlong](https://www.townlong-yak.com/framexml/live/Blizzard_APIDocumentation)
+* [Official Lua Documentation](https://www.lua.org/pil/contents.html) // Lua is a common user interface language.
+* [WoW Lua API Documentation](https://wowwiki-archive.fandom.com/wiki/World_of_Warcraft_API)  // Wowwiki API documentation
+* [WoW API Townlong](https://www.townlong-yak.com/framexml/live/Blizzard_APIDocumentation) // 3rd party API documentation
+* [WoW FrameXML Townlong](https://www.townlong-yak.com/framexml/builds) // 3rd party FrameXML documentation
 
 IDE/Editing program:
+* [Visual Studio](https://code.visualstudio.com/)+[Lua extention](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua) // Commonly used IDE; Lua extention
 * [Notepad++](https://notepad-plus-plus.org/downloads/) // Free editor
 * [Lua Demo](https://www.lua.org/cgi-bin/demo) // Lua demo environment for testing
-
 
 WoW Addon Liberary/Tools
 * [WowAce3 Lib](https://www.wowace.com/projects/ace3) // Addon lib made to make stuff easier.
