@@ -31,14 +31,14 @@ The repo only has one branch for development and that is MasterDev.
     C:\World of Warcraft\_classic_\Interface\AddOns
     # Private Servers
     \Interface\AddOns
+    
+    # From here just copy the "beyond" folder from the newly cloned directory
     ```
     
-    Setup a "beyond" folder & copy over the files from the git clone
-    
-3. Make sure that your folder looks somewhat like this
+3. Make sure you got something that looks like the tree structure below:
     
     ```
-    # This is inside the addons folder
+    📁AddOns
     └── 📁beyond
         ├── 📁lib
         │   ├── 📄AceConsol.lua
