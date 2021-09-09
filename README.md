@@ -3,7 +3,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-![Lua][lua-shield]<br/>
+[![Lua][lua-shield]][lua-url]<br/>
 This addons key focus is to have many "functions/scripts" for semi/full automative tasks; The addon can both be used as standalone or while playing to enhance gameplay!
 
 ## 🚀 Future features
@@ -38,3 +38,4 @@ Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issue
 [issues-shield]: https://img.shields.io/github/issues/nizonrox/Beyond-Repair.svg?style=for-the-badge
 [issues-url]: https://github.com/nizonrox/Beyond-Repair/issues
 [lua-shield]: https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white
+[lua-url]: https://www.lua.org/cgi-bin/demo
