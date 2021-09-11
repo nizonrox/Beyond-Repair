@@ -1,8 +1,7 @@
 ## Interface: 30300
-## Title: Beyond Repair
-## Description: Useless addon, for now.
-## Version: 1.0.1
-## Author: NizonRox
-## Notes: Useless addon, for now.
+## Title: Beyond BTP
+## Description: Behead The Prophet Add On
 
-beyond_lib.xml
+
+beyond_frame.xml
+embeds.xml
