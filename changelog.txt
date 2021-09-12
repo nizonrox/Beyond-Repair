@@ -1,6 +1,9 @@
 0.0.1 - Stable
 - Fixed debugging / Added on the fly debugging
-- Intergrating WoWArc lib
-- Add comments to code
-- Better frame creation (loop over array pairs)
+- Intergrated WoWArc lib
+    -Added commands
+    -Changed from xml onload to Arc3 OnInitialize
+- Changed function naming scheme to avoid function name overlapping
+- Added comments to a lot of functions
+- Improved frame creation/recoloring
 - Removing clutter
