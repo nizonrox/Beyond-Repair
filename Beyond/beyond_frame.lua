@@ -5,7 +5,7 @@ fr_width_g = 75
 fr_height_g = 20
 
 -- Set to 1 for debug messages; Or use /beyond_debug
-beyond_debug = 1
+beyond_debug = 0
 
 -- Frame names & Hex color array
 beyond_f_array = {"IT", "IA", "IPT", "CT", "CA", "CPT", "AT", "AA", "APT", "PT", "MA", "PA", "MP", "PPT"}
@@ -28,33 +28,34 @@ beyond_c_array = {
 }
 
 -- WowAce3
-Beyond = LibStub('AceAddon-3.0'):NewAddon("Beyond", 'AceConsole-3.0')
+Beyond = LibStub("AceAddon-3.0"):NewAddon("Beyond", "AceConsole-3.0")
 
 -- OnInitialize Event called by Ace3
 function Beyond:OnInitialize()
-    self:Debug("Beyond:OnInitialize()")
-	self:AddSlashCommands()
-	self:Setup()
+    --self:Debug("Beyond:OnInitialize()")
+    self:AddSlashCommands()
+    self:Setup()
 end
 
 function Beyond:AddSlashCommands()
-    self:RegisterChatCommand('beyond', 'HandleSlashCommand')
-    self:RegisterChatCommand('br', 'HandleSlashCommand')
+    -- Command prefix to listen for
+    self:RegisterChatCommand("beyond", "HandleSlashCommand")
+    self:RegisterChatCommand("br", "HandleSlashCommand")
 end
 
 function Beyond:HandleSlashCommand(cmd)
-	cmd = cmd and cmd:lower() or ''
-	if cmd == 'init' then
-		Beyond:Frame_init()
-	elseif cmd == 'debug' then
-		self:Debug_toggle()
-	elseif cmd == 'toggle' then
-		self:Toggle_bars()
-	else
-		return
-	end
+    -- Check command and run
+    cmd = cmd and cmd:lower() or ""
+    if cmd == "init" then
+        self:FInit()
+    elseif cmd == "debug" then
+        self:Debug_toggle()
+    elseif cmd == "toggle" then
+        self:FToggle()
+    else
+        return
+    end
 end
-
 
 function Beyond:Cords()
     -- Creating next cords for frame
@@ -69,26 +70,27 @@ function Beyond:Cords()
 end
 
 function Beyond:Setup()
+    -- Setup frames for use
     local curx
     local cury
     local curw
     local curh
     curw = fr_width_g
     curh = fr_height_g
-	
+
     for i, v in pairs(beyond_f_array) do
         curx, cury = self:Cords()
-        btp_frame_create(beyond_f_array[i], curx, cury, curw, curh)
+        self:Fcreate(beyond_f_array[i], curx, cury, curw, curh)
         --self:Debug("Create frame: " .. beyond_f_array[i] .. " xpos: " .. curx .. " ypos: " .. cury)
     end
 end
 
-function Beyond:frame_init()
+function Beyond:FInit()
     -- Using 2 arrays to recolor all frames to test functionality
     for i, v in pairs(beyond_f_array) do
         curx, cury = self:Cords()
         --self:Debug("Change: " .. beyond_f_array[i] .. " Hex: " .. beyond_c_array[i])
-        btp_frame_set_color_hex(beyond_f_array[i], beyond_c_array[i])
+        self:FSetHex(beyond_f_array[i], beyond_c_array[i])
     end
 end
 
@@ -104,7 +106,7 @@ function Beyond:Debug(msg)
     end
 end
 
-function Beyond:debug_toggle()
+function Beyond:Debug_toggle()
     --Used for changing debug status on the fly
     if beyond_debug == 0 then
         beyond_debug = 1
@@ -115,7 +117,7 @@ function Beyond:debug_toggle()
     end
 end
 
-function Beyond:frame_toggle(fname)
+function Beyond:Ftoggle(fname)
     local full_name = "btp_frame_" .. fname
     local frame = getglobal(full_name)
     --self:debug(full_name)
@@ -128,7 +130,7 @@ function Beyond:frame_toggle(fname)
     end
 end
 
-function btp_frame_create(arg_fname, curx, cury, curw, curh)
+function Beyond:Fcreate(arg_fname, curx, cury, curw, curh)
     local fname = "btp_frame_" .. arg_fname
     -- self:Debug("btp_frame_create: " .. fname .. " curx: " .. curx .. " cury: " .. cury .. " curw: " .. curw .. " curh: " .. curh)
 
@@ -154,9 +156,7 @@ function btp_frame_create(arg_fname, curx, cury, curw, curh)
     --fs:SetText(arg_fname)
 end
 
-
-
-function btp_frame_set_color(fname, red, green, blue)
+function Beyond:FSetColor(fname, red, green, blue)
     local full_name = "btp_frame_" .. fname
     --self:Debug("btp_frame_set_color: " .. full_name ..
     --                " = " .. red .. " " .. " " .. green .. " " .. blue)
@@ -166,9 +166,9 @@ function btp_frame_set_color(fname, red, green, blue)
     end
 end
 
-function btp_frame_set_color_hex(fname, hex)
+function Beyond:FSetHex(fname, hex)
     if (fname and hex) then
         local rhex, ghex, bhex = string.sub(hex, 1, 2), string.sub(hex, 3, 4), string.sub(hex, 5, 6)
-        btp_frame_set_color(fname, tonumber(rhex, 16) / 255, tonumber(ghex, 16) / 255, tonumber(bhex, 16) / 255)
+        self:FSetColor(fname, tonumber(rhex, 16) / 255, tonumber(ghex, 16) / 255, tonumber(bhex, 16) / 255)
     end
 end
