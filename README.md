@@ -14,7 +14,7 @@ This addons key focus is to have many "functions/scripts" for semi/full automati
 * Use WowArc liberary
 
 ## ✨ Change log
-0.0.**1** - Updated repo<br/>
+0.0.**1** - Updated repo; Stable build<br/>
 
 ## ⭐️ Useful info
 * BTP [Github](https://github.com/godsflaw/btp)/[Launchpad](https://launchpad.net/btp)/[Slideshow](./Misc/defconslideshow.pdf)<br/>
