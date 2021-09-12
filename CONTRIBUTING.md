@@ -39,15 +39,19 @@ The repo only has one branch for development and that is MasterDev.
     
     ```
     📁AddOns
-    └── 📁beyond
+    └── 📁Beyond
         ├── 📁lib
-        │   ├── 📄AceConsol.lua
-        │   └── 📄AceConfig.lua
-        ├── 📄beyond.toc
-        ├── 📄beyond_lib.lua
-        ├── 📑beyond_lib.xml
-        ├── 🎨white16x16.tga
-        └── 🎨objectIcons.tga
+        │   ├── 📁AceAddon-3.0
+        │   ├── 📁AceConsole-3.0
+        │   ├── 📁CallbackHandler-1.0
+        │   ├── 📁LibStub
+        │   └── 📄LibDataBroker-1.1.lua
+        ├── 📄Beyond.toc
+        ├── 📄beyond_frame.lua
+        ├── 📄beyond_frame.xml
+        ├── 📑embeds.xml
+        ├── 🎨objectIcons.tga
+        └── 🎨white16x16.tga
     ```
 4. Run World of Warcraft
     After you have logged in be sure to enable the addon via the menu bottom left.
