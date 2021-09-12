@@ -82,6 +82,6 @@ WoW Addon Liberary/Tools
 
 ## Submitting a Pull Request
 Be sure to use a formatter for what file types you are creating/editing.<br/>
-[.Xml](https://www.webtoolkitonline.com/xml-formatter.html)<br/>
+[.Xml](https://goonlinetools.com/xml-formatter/)<br/>
 [.Lua](https://goonlinetools.com/lua-beautifier/)
 

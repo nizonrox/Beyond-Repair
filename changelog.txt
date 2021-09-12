@@ -1,0 +1,6 @@
+0.0.1 - Stable
+- Fixed debugging / Added on the fly debugging
+- Intergrating WoWArc lib
+- Add comments to code
+- Better frame creation (loop over array pairs)
+- Removing clutter
