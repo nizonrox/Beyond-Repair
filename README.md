@@ -4,17 +4,22 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![Lua][lua-shield]][lua-url]<br/>
-This addons key focus is to have many "functions/scripts" for semi/full automative tasks; The addon can both be used as standalone or while playing to enhance gameplay!
+Beyond-Repair will focus on making it easy to semi/fully automate tasks by having ready to use functions & examples.
+As I've released the first stable version of the addon my focus will shift making a stable version of AHK
+![Frame screenie](./Misc/frames.png?raw=true "Frames screenshot")
+
+## 🔥 Current features
+* Works with 3.x.x 
+* Using WowArc3 Lib
 
 ## 🚀 Future features
-* Make addon work with 3.3.5/Retail
-* Diffrent modes (Follower/Solo/Party mode)
 * Bypass blocked lua
-* Autoit/AHK script
-* Use WowArc liberary
+* AHK program
+* Solo/Party/Follower mode
+* Compatible /w mainstream versions
 
 ## ✨ Change log
-0.0.**1** - Updated repo; Stable build<br/>
+0.0.**1** - Updated repo; Code upgrade<br/>
 
 ## ⭐️ Useful info
 * BTP [Github](https://github.com/godsflaw/btp)/[Launchpad](https://launchpad.net/btp)/[Slideshow](./Misc/defconslideshow.pdf)<br/>
@@ -27,7 +32,7 @@ Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issue
 [Check the contributing guide](./CONTRIBUTING.md).<br/>
 
 ## 📝 License
-[Good Luck With That](./LICENSE)
+[Apache-2.0 License](./LICENSE)
 
 [contributors-shield]: https://img.shields.io/github/contributors/nizonrox/Beyond-Repair.svg?style=for-the-badge
 [contributors-url]: https://github.com/nizonrox/Beyond-Repair/graphs/contributors
