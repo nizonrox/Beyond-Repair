@@ -1,4 +1,4 @@
-# 🛠️ Beyond Repair (Master 0.0.1)
+# 🛠️ Beyond Repair (Master 0.0.2)
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -19,6 +19,7 @@ As I've released the first stable version of the addon my focus will shift makin
 * Compatible /w mainstream versions
 
 ## ✨ Change log
+0.0.**2** - Creating AHK script<br/>
 0.0.**1** - Updated repo; Code upgrade<br/>
 
 ## ⭐️ Useful info
