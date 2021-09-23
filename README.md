@@ -3,7 +3,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Lua][lua-shield]][lua-url]<br/>
+[![Lua][lua-shield]][lua-url][![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnizonrox%2FBeyond-Repair.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnizonrox%2FBeyond-Repair?ref=badge_shield)
+<br/>
 Beyond-Repair will focus on making it easy to semi/fully automate tasks by having ready to use functions & examples.
 As I've released the first stable version of the addon my focus will shift making a stable version of AHK
 ![Frame screenie](./Misc/frames.png?raw=true "Frames screenshot")
@@ -44,3 +45,6 @@ Feel free to check [issues page](https://github.com/nizonrox/Beyond-Repair/issue
 [issues-url]: https://github.com/nizonrox/Beyond-Repair/issues
 [lua-shield]: https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white
 [lua-url]: https://www.lua.org/cgi-bin/demo
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnizonrox%2FBeyond-Repair.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnizonrox%2FBeyond-Repair?ref=badge_large)
