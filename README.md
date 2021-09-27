@@ -14,18 +14,19 @@ As I've released the first stable version of the addon my focus will shift makin
 
 ## 🚀 Future features
 * Bypass blocked lua
-* AHK program
+* AHK/Python Program to read colors
 * Solo/Party/Follower mode
 * Compatible /w mainstream versions
 
 ## ✨ Change log
-0.0.**2** - Creating AHK script<br/>
+0.0.**2** - Test AHK/Python and alternatives<br/>
 0.0.**1** - Updated repo; Code upgrade<br/>
 
 ## ⭐️ Useful info
 * BTP [Github](https://github.com/godsflaw/btp)/[Launchpad](https://launchpad.net/btp)/[Slideshow](./Misc/defconslideshow.pdf)<br/>
 * [WowArc Lib](https://www.wowace.com/projects/ace3)<br/>
 * [Lua Doc](https://www.lua.org/pil/contents.html)<br/>
+* [DataToColor](https://github.com/MicahRCM/Happy-Pixels)<br/>
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome.<br/>
